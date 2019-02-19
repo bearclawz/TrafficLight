@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE3EB8832214603200FA0DF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3EB8822214603200FA0DF5 /* AppDelegate.swift */; };
+		DE3EB8852214603200FA0DF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3EB8842214603200FA0DF5 /* ViewController.swift */; };
+		DE3EB8882214603200FA0DF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE3EB8862214603200FA0DF5 /* Main.storyboard */; };
+		DE3EB88A2214603600FA0DF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE3EB8892214603600FA0DF5 /* Assets.xcassets */; };
+		DE3EB88D2214603600FA0DF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE3EB88B2214603600FA0DF5 /* LaunchScreen.storyboard */; };
+		DE3EB8982214603600FA0DF5 /* KevTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3EB8972214603600FA0DF5 /* KevTestAppTests.swift */; };
+		DE3EB8A32214603600FA0DF5 /* KevTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3EB8A22214603600FA0DF5 /* KevTestAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE3EB8942214603600FA0DF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE3EB8772214603100FA0DF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE3EB87E2214603100FA0DF5;
+			remoteInfo = KevTestApp;
+		};
+		DE3EB89F2214603600FA0DF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE3EB8772214603100FA0DF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE3EB87E2214603100FA0DF5;
+			remoteInfo = KevTestApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE3EB87F2214603200FA0DF5 /* KevTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KevTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3EB8822214603200FA0DF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE3EB8842214603200FA0DF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE3EB8872214603200FA0DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE3EB8892214603600FA0DF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE3EB88C2214603600FA0DF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE3EB88E2214603600FA0DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE3EB8932214603600FA0DF5 /* KevTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KevTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3EB8972214603600FA0DF5 /* KevTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KevTestAppTests.swift; sourceTree = "<group>"; };
+		DE3EB8992214603600FA0DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE3EB89E2214603600FA0DF5 /* KevTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KevTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3EB8A22214603600FA0DF5 /* KevTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KevTestAppUITests.swift; sourceTree = "<group>"; };
+		DE3EB8A42214603600FA0DF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE3EB87C2214603100FA0DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE3EB8902214603600FA0DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE3EB89B2214603600FA0DF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE3EB8762214603100FA0DF5 = {
+			isa = PBXGroup;
+			children = (
+				DE3EB8812214603200FA0DF5 /* KevTestApp */,
+				DE3EB8962214603600FA0DF5 /* KevTestAppTests */,
+				DE3EB8A12214603600FA0DF5 /* KevTestAppUITests */,
+				DE3EB8802214603200FA0DF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE3EB8802214603200FA0DF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE3EB87F2214603200FA0DF5 /* KevTestApp.app */,
+				DE3EB8932214603600FA0DF5 /* KevTestAppTests.xctest */,
+				DE3EB89E2214603600FA0DF5 /* KevTestAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE3EB8812214603200FA0DF5 /* KevTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				DE3EB8822214603200FA0DF5 /* AppDelegate.swift */,
+				DE3EB8842214603200FA0DF5 /* ViewController.swift */,
+				DE3EB8862214603200FA0DF5 /* Main.storyboard */,
+				DE3EB8892214603600FA0DF5 /* Assets.xcassets */,
+				DE3EB88B2214603600FA0DF5 /* LaunchScreen.storyboard */,
+				DE3EB88E2214603600FA0DF5 /* Info.plist */,
+			);
+			path = KevTestApp;
+			sourceTree = "<group>";
+		};
+		DE3EB8962214603600FA0DF5 /* KevTestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE3EB8972214603600FA0DF5 /* KevTestAppTests.swift */,
+				DE3EB8992214603600FA0DF5 /* Info.plist */,
+			);
+			path = KevTestAppTests;
+			sourceTree = "<group>";
+		};
+		DE3EB8A12214603600FA0DF5 /* KevTestAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE3EB8A22214603600FA0DF5 /* KevTestAppUITests.swift */,
+				DE3EB8A42214603600FA0DF5 /* Info.plist */,
+			);
+			path = KevTestAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE3EB87E2214603100FA0DF5 /* KevTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE3EB8A72214603600FA0DF5 /* Build configuration list for PBXNativeTarget "KevTestApp" */;
+			buildPhases = (
+				DE3EB87B2214603100FA0DF5 /* Sources */,
+				DE3EB87C2214603100FA0DF5 /* Frameworks */,
+				DE3EB87D2214603100FA0DF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KevTestApp;
+			productName = KevTestApp;
+			productReference = DE3EB87F2214603200FA0DF5 /* KevTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE3EB8922214603600FA0DF5 /* KevTestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE3EB8AA2214603600FA0DF5 /* Build configuration list for PBXNativeTarget "KevTestAppTests" */;
+			buildPhases = (
+				DE3EB88F2214603600FA0DF5 /* Sources */,
+				DE3EB8902214603600FA0DF5 /* Frameworks */,
+				DE3EB8912214603600FA0DF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE3EB8952214603600FA0DF5 /* PBXTargetDependency */,
+			);
+			name = KevTestAppTests;
+			productName = KevTestAppTests;
+			productReference = DE3EB8932214603600FA0DF5 /* KevTestAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE3EB89D2214603600FA0DF5 /* KevTestAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE3EB8AD2214603600FA0DF5 /* Build configuration list for PBXNativeTarget "KevTestAppUITests" */;
+			buildPhases = (
+				DE3EB89A2214603600FA0DF5 /* Sources */,
+				DE3EB89B2214603600FA0DF5 /* Frameworks */,
+				DE3EB89C2214603600FA0DF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE3EB8A02214603600FA0DF5 /* PBXTargetDependency */,
+			);
+			name = KevTestAppUITests;
+			productName = KevTestAppUITests;
+			productReference = DE3EB89E2214603600FA0DF5 /* KevTestAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE3EB8772214603100FA0DF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Kev Bearclaw";
+				TargetAttributes = {
+					DE3EB87E2214603100FA0DF5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					DE3EB8922214603600FA0DF5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DE3EB87E2214603100FA0DF5;
+					};
+					DE3EB89D2214603600FA0DF5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = DE3EB87E2214603100FA0DF5;
+					};
+				};
+			};
+			buildConfigurationList = DE3EB87A2214603100FA0DF5 /* Build configuration list for PBXProject "KevTestApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE3EB8762214603100FA0DF5;
+			productRefGroup = DE3EB8802214603200FA0DF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE3EB87E2214603100FA0DF5 /* KevTestApp */,
+				DE3EB8922214603600FA0DF5 /* KevTestAppTests */,
+				DE3EB89D2214603600FA0DF5 /* KevTestAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE3EB87D2214603100FA0DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE3EB88D2214603600FA0DF5 /* LaunchScreen.storyboard in Resources */,
+				DE3EB88A2214603600FA0DF5 /* Assets.xcassets in Resources */,
+				DE3EB8882214603200FA0DF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE3EB8912214603600FA0DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE3EB89C2214603600FA0DF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE3EB87B2214603100FA0DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE3EB8852214603200FA0DF5 /* ViewController.swift in Sources */,
+				DE3EB8832214603200FA0DF5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE3EB88F2214603600FA0DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE3EB8982214603600FA0DF5 /* KevTestAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE3EB89A2214603600FA0DF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE3EB8A32214603600FA0DF5 /* KevTestAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE3EB8952214603600FA0DF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE3EB87E2214603100FA0DF5 /* KevTestApp */;
+			targetProxy = DE3EB8942214603600FA0DF5 /* PBXContainerItemProxy */;
+		};
+		DE3EB8A02214603600FA0DF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE3EB87E2214603100FA0DF5 /* KevTestApp */;
+			targetProxy = DE3EB89F2214603600FA0DF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE3EB8862214603200FA0DF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE3EB8872214603200FA0DF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE3EB88B2214603600FA0DF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE3EB88C2214603600FA0DF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE3EB8A52214603600FA0DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE3EB8A62214603600FA0DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE3EB8A82214603600FA0DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7B43ZY837;
+				INFOPLIST_FILE = KevTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bearclaw.KevTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE3EB8A92214603600FA0DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7B43ZY837;
+				INFOPLIST_FILE = KevTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bearclaw.KevTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE3EB8AB2214603600FA0DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7B43ZY837;
+				INFOPLIST_FILE = KevTestAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bearclaw.KevTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KevTestApp.app/KevTestApp";
+			};
+			name = Debug;
+		};
+		DE3EB8AC2214603600FA0DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7B43ZY837;
+				INFOPLIST_FILE = KevTestAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bearclaw.KevTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KevTestApp.app/KevTestApp";
+			};
+			name = Release;
+		};
+		DE3EB8AE2214603600FA0DF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7B43ZY837;
+				INFOPLIST_FILE = KevTestAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bearclaw.KevTestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KevTestApp;
+			};
+			name = Debug;
+		};
+		DE3EB8AF2214603600FA0DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B7B43ZY837;
+				INFOPLIST_FILE = KevTestAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bearclaw.KevTestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KevTestApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE3EB87A2214603100FA0DF5 /* Build configuration list for PBXProject "KevTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE3EB8A52214603600FA0DF5 /* Debug */,
+				DE3EB8A62214603600FA0DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE3EB8A72214603600FA0DF5 /* Build configuration list for PBXNativeTarget "KevTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE3EB8A82214603600FA0DF5 /* Debug */,
+				DE3EB8A92214603600FA0DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE3EB8AA2214603600FA0DF5 /* Build configuration list for PBXNativeTarget "KevTestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE3EB8AB2214603600FA0DF5 /* Debug */,
+				DE3EB8AC2214603600FA0DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE3EB8AD2214603600FA0DF5 /* Build configuration list for PBXNativeTarget "KevTestAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE3EB8AE2214603600FA0DF5 /* Debug */,
+				DE3EB8AF2214603600FA0DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE3EB8772214603100FA0DF5 /* Project object */;
+}
