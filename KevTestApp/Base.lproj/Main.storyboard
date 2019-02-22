@@ -22,6 +22,7 @@
                                 <rect key="frame" x="40" y="247" width="240" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.94816628886010357" green="0.63038044612180943" blue="0.16544866898004695" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration" identifier="orange" label="orange"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <state key="normal" title="ORANGE">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -35,6 +36,7 @@
                                 <rect key="frame" x="40" y="69" width="240" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.19068352495455687" blue="0.098859919949600639" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration" identifier="red"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <state key="normal" title="RED">
                                     <color key="titleColor" red="1" green="0.19068352499999999" blue="0.09885991995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -48,6 +50,7 @@
                                 <rect key="frame" x="40" y="418" width="240" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.13176021263729165" green="1" blue="0.10300516339145571" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration" label="green"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <state key="normal" title="GREEN">
                                     <color key="titleColor" red="0.13176021260000001" green="1" blue="0.1030051634" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
